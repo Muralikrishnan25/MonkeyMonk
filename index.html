@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monkey Monk Studio | Anamorphic 3D & Billboard Advertising</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Distinctive font pairing: Bold display + professional body -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Hero Section with Background Video -->
+    <section id="home" class="hero-section">
+        <!-- Video Background -->
+        <div class="video-background">
+            <video autoplay muted loop playsinline preload="auto" id="hero-video">
+                <!-- Multiple source formats for compatibility and performance -->
+                <source src="./COCA-COLA S REALITY BRIDGING 3D BILLBOARD.mp4" type="video/mp4">
+                <source src="https://cdn.coverr.co/videos/coverr-aerial-view-of-a-city-at-night-9591/720p.mp4"
+                    type="video/mp4">
+                <!-- Fallback for older browsers -->
+                Your browser does not support the video tag.
+            </video>
+            <!-- Cinematic overlay for text readability -->
+            <div class="video-overlay"></div>
+        </div>
+
+        <!-- Navigation Bar (Overlay on Video) -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="logo.png" alt="Monkey Monk Studio" class="logo-image">
+                    <div class="logo-text-container">
+                        <span class="logo-text">MONKEY MONK</span>
+                        <span class="logo-accent">STUDIO</span>
+                    </div>
+                </div>
+
+                <!-- Hamburger Menu for Mobile -->
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#works" class="nav-link">Our Works</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-tagline">Next-Generation Advertising Experiences</div>
+                <h1 class="hero-title">
+                    <span class="title-line">ANAMORPHIC 3D</span>
+                    <span class="title-line highlight">BILLBOARD</span>
+                    <span class="title-line">ADVERTISING</span>
+                </h1>
+                <p class="hero-subtitle">Transforming ordinary LED displays into powerful attention magnets with
+                    cinematic VFX craftsmanship and cutting-edge anamorphic 3D visuals</p>
+                <div class="hero-cta">
+                    <a href="#works" class="btn btn-primary">View Our Work</a>
+                    <a href="#contact" class="btn btn-secondary">Start a Project</a>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <div class="scroll-line"></div>
+                <span class="scroll-text">DISCOVER</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">WHO WE ARE</span>
+                <h2 class="section-title">CREATING VISUAL <span class="accent">MASTERPIECES</span></h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead-text">Monkey Monk Studio is a creative motion graphics and 3D visualization studio
+                        specializing in high-impact anamorphic visuals for brands, retail spaces, and large-format LED
+                        displays.</p>
+                    <p>We blend the playful creativity of a Monkey Mind with the focused clarity of a Monk Mind to
+                        create bold, immersive, and attention-grabbing experiences that go beyond screens and turn
+                        displays into moments people stop and watch.</p>
+                    <p>Founded by Murali Krishnan, a VFX artist with 8+ years of experience working at world-leading VFX
+                        studios on top Hollywood film productions, we bring cinematic, high-end VFX craftsmanship into
+                        futuristic advertising and anamorphic 3D visuals.</p>
+
+                    <div class="mission-vision-grid">
+                        <div class="mission-card">
+                            <div class="mv-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <h3>Our Mission</h3>
+                            <p>To fuse cinematic VFX craftsmanship with next-generation motion graphics and anamorphic
+                                3D, creating visuals that pull people into the experience and transform digital displays
+                                into powerful storytelling platforms.</p>
+                        </div>
+
+                        <div class="vision-card">
+                            <div class="mv-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    <path
+                                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                </svg>
+                            </div>
+                            <h3>Our Vision</h3>
+                            <p>To become India's leading creative studio and one of the world's top anamorphic
+                                advertising companies, setting global benchmarks in immersive 3D, motion graphics, and
+                                futuristic digital experiences.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Industry Awards</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">8+</div>
+                        <div class="stat-label">Years VFX Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Works Section (YouTube Integration) -->
+    <section id="works" class="works-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">PORTFOLIO</span>
+                <h2 class="section-title">OUR <span class="accent">WORKS</span></h2>
+                <p class="section-description">Explore our anamorphic 3D billboard projects that have captivated
+                    audiences worldwide</p>
+            </div>
+
+            <div class="works-grid">
+                <!-- Work Card 1 -->
+                <div class="work-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/djV11Xbc914" title="Anamorphic 3D Billboard"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">LUXURY WATCH SHOWCASE</h3>
+                        <p class="work-description">Premium anamorphic display featuring photorealistic 3D product
+                            visualization with advanced lighting and reflections</p>
+                        <div class="work-tags">
+                            <span class="tag">Anamorphic 3D</span>
+                            <span class="tag">Product Viz</span>
+                            <span class="tag">LED Display</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Work Card 2 -->
+                <div class="work-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/8lGpZkjnkt4" title="3D Billboard Advertising"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">AUTOMOTIVE CAMPAIGN</h3>
+                        <p class="work-description">High-impact billboard advertising with realistic car animation and
+                            environmental effects</p>
+                        <div class="work-tags">
+                            <span class="tag">3D Animation</span>
+                            <span class="tag">Billboard</span>
+                            <span class="tag">Motion Graphics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Work Card 3 -->
+                <div class="work-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/zK-30442RII" title="Anamorphic Display"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">FASHION RETAIL DISPLAY</h3>
+                        <p class="work-description">Immersive 3D billboard experience with dynamic cloth simulation and
+                            lighting effects</p>
+                        <div class="work-tags">
+                            <span class="tag">Simulation</span>
+                            <span class="tag">Anamorphic</span>
+                            <span class="tag">Retail</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Work Card 4 -->
+                <div class="work-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/OCJh5bhsYok" title="LED Billboard Campaign"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">TECH PRODUCT LAUNCH</h3>
+                        <p class="work-description">Cinematic 3D billboard showcasing next-gen technology with stunning
+                            visual effects</p>
+                        <div class="work-tags">
+                            <span class="tag">CGI</span>
+                            <span class="tag">VFX</span>
+                            <span class="tag">LED Display</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Work Card 5 -->
+                <div class="work-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/yT6BB0P2K-A" title="3D Advertising Display"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">BEVERAGE BRAND ACTIVATION</h3>
+                        <p class="work-description">Dynamic liquid simulation with photorealistic materials and advanced
+                            rendering</p>
+                        <div class="work-tags">
+                            <span class="tag">Fluid Sim</span>
+                            <span class="tag">Rendering</span>
+                            <span class="tag">Billboard</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Work Card 6 -->
+                <div class="work-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/tlThdr3O5Qo" title="Anamorphic 3D Showcase"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">ENTERTAINMENT COMPLEX</h3>
+                        <p class="work-description">Immersive 3D environment with volumetric lighting and atmospheric
+                            effects</p>
+                        <div class="work-tags">
+                            <span class="tag">Environment</span>
+                            <span class="tag">Lighting</span>
+                            <span class="tag">Anamorphic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">WHAT WE DO</span>
+                <h2 class="section-title">OUR <span class="accent">SERVICES</span></h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Anamorphic 3D</h3>
+                    <p class="service-description">
+                        Create stunning anamorphic illusions for large-format LED displays that stop people in their
+                        tracks and create
+                        viral-worthy moments.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Projection Mapping</h3>
+                    <p class="service-description">
+                        Large-scale projection mapping solutions designed to transform buildings, stages, and
+                        environments into
+                        immersive visual experiences.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Modeling</h3>
+                    <p class="service-description">
+                        Detailed 3D modeling with accurate proportions, clean topology, and production-ready assets for
+                        any
+                        visualization pipeline.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">04</div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Animation</h3>
+                    <p class="service-description">
+                        Smooth, cinematic 3D animation that brings concepts to life with motion, timing, and visual
+                        storytelling.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">05</div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Pre Visualisation</h3>
+                    <p class="service-description">
+                        Pre-visualisation workflows to plan shots, camera movements, lighting, and animation before
+                        final production.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">06</div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">3D Concept Art</h3>
+                    <p class="service-description">
+                        High-quality 3D concept art that visualizes ideas, moods, and design directions before
+                        production begins.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Packages Section -->
+            <!-- <div class="packages-section">
+                <h3 class="packages-title">Our Packages</h3>
+                <div class="packages-grid">
+                    <div class="package-card">
+                        <div class="package-header">
+                            <h4>Basic Package</h4>
+                            <div class="package-price">₹4,000<span>/sec</span></div>
+                        </div>
+                        <ul class="package-features">
+                            <li>Simple anamorphic visuals</li>
+                            <li>Basic 3D modeling & texturing</li>
+                            <li>Standard animation</li>
+                            <li>Basic rendering & compositing</li>
+                            <li>Display conversion</li>
+                        </ul>
+                        <p class="package-note">Minimum 10 seconds</p>
+                    </div>
+
+                    <div class="package-card featured">
+                        <div class="package-badge">POPULAR</div>
+                        <div class="package-header">
+                            <h4>Standard Package</h4>
+                            <div class="package-price">₹7,500<span>/sec</span></div>
+                        </div>
+                        <ul class="package-features">
+                            <li>Enhanced anamorphic design</li>
+                            <li>Detailed 3D environments</li>
+                            <li>Cinematic animation</li>
+                            <li>Advanced lighting & rendering</li>
+                            <li>Professional compositing</li>
+                            <li>Optimized display output</li>
+                        </ul>
+                        <p class="package-note">Minimum 10 seconds</p>
+                    </div>
+
+                    <div class="package-card">
+                        <div class="package-header">
+                            <h4>Premium Package</h4>
+                            <div class="package-price">₹12,500<span>/sec</span></div>
+                        </div>
+                        <ul class="package-features">
+                            <li>Premium concept direction</li>
+                            <li>High-end 3D & VFX</li>
+                            <li>Hollywood-grade animation</li>
+                            <li>Cinematic lighting & rendering</li>
+                            <li>Advanced compositing & effects</li>
+                            <li>Precise display calibration</li>
+                        </ul>
+                        <p class="package-note">Minimum 10 seconds</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">GET IN TOUCH</span>
+                <h2 class="section-title">LET'S CREATE <span class="accent">TOGETHER</span></h2>
+                <p class="section-description">Ready to transform your billboard into an unforgettable experience? Let's
+                    discuss your project.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p><a href="mailto:monkeymonkstudio@gmail.com">monkeymonkstudio@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p><a href="tel:+918778999674">+91 877 899 9674</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Website</h3>
+                        <p><a href="https://www.monkeymonkstudio.com" target="_blank">www.monkeymonkstudio.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Connect With Us</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link">Instagram</a>
+                            <a href="#" class="social-link">YouTube</a>
+                            <a href="#" class="social-link">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <input type="text" id="company" name="company" placeholder="Company Name">
+                    </div>
+                
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="6" placeholder="Tell us about your billboard project"
+                            required></textarea>
+                    </div>
+                
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Monkey Monk Studio" class="footer-logo-image">
+                    <div class="footer-logo-text">
+                        <span class="logo-text">MONKEY MONK</span>
+                        <span class="logo-accent">STUDIO</span>
+                    </div>
+                </div>
+                <p class="footer-tagline">Next-Generation Advertising Experiences</p>
+                <p class="footer-text">© 2025 Monkey Monk Studio. All rights reserved. Creating visual masterpieces
+                    through anamorphic 3D and cinematic VFX.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script>
+        (function () {
+            emailjs.init("IUcfOXVrPxE6fYcdz");
+        })();
+    </script>
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            emailjs.sendForm(
+                "service_mfs3pyh",
+                "template_rqfsbog",
+                this
+            ).then(
+                function () {
+                    alert("Message sent successfully!");
+                    document.getElementById("contactForm").reset();
+                },
+                function (error) {
+                    alert("Failed to send message. Please try again.");
+                    console.log(error);
+                }
+            );
+        });
+    </script>
+    <!-- JavaScript for Mobile Menu & Smooth Scroll -->
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Active nav link on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Ensure video plays on load
+        document.addEventListener('DOMContentLoaded', () => {
+            const video = document.getElementById('hero-video');
+            video.play().catch(e => console.log('Video autoplay prevented'));
+        });
+    </script>
+</body>
+
+</html>
